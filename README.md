@@ -9,14 +9,22 @@ What if we have this data mapping option as Declarative feature? Does it possibl
 ### Example Considerations
 1. Here in this example we have following objects: <br/>
 (a) Standard Objects <br/>
--Account
-(b) Custom Objects
-SalesOrder__c
-SalesInvoice__c
-(c) Custom Setting (List Type)
-SalesOrderToInvoiceFieldMapping__c
-(d) Data Model
+-Account <br/>
+(b) Custom Objects <br/>
+SalesOrder__c <br/>
+SalesInvoice__c <br/>
+(c) Custom Setting (List Type) <br/>
+SalesOrderToInvoiceFieldMapping__c <br/>
+(d) Data Model <br/>
 <img src="supportedimages/Image0.png" />
+2. An after update Apex trigger "SalesOrderTrigger" on SalesOrder__c.
+3. An Apex utility class "SalesInvoiceUtility" to create Sales Invoice records.
+4. The custom setting "SalesOrderToInvoiceFieldMapping__c" contains the data mapping from different Source objects (e.g. Account, SalesOrder__c, Default Values) to SalesInvoice__c objects.
+<img src="supportedimages/Image5.png" />
+<img src="supportedimages/Image6.png" />
 
-2. There is a Lookup relationship between Account and SalesOrder__c. An Account can have one "or many SalesOrder__c records.
-3. There is a custom button "Manage Sales Orders" on Account detail page
+### Declarative Field Mapping in Action!
+<img src="supportedimages/Image1.png" />
+<img src="supportedimages/Image2.png" />
+<img src="supportedimages/Image3.png" />
+<img src="supportedimages/Image4.png" />
