@@ -17,9 +17,9 @@ SalesInvoice__c <br/>
 SalesOrderToInvoiceFieldMapping__c <br/>
 (d) Data Model <br/>
 <img src="supportedimages/Image0.png" />
-2. An after update Apex trigger "SalesOrderTrigger" on SalesOrder__c.
-3. An Apex utility class "SalesInvoiceUtility" to create Sales Invoice records.
-4. The custom setting "SalesOrderToInvoiceFieldMapping__c" contains the data mapping from different Source objects (e.g. Account, SalesOrder__c, Default Values) to SalesInvoice__c objects.
+2. An after update Apex trigger "SalesOrderTrigger" on SalesOrder__c. <br/>
+3. An Apex utility class "SalesInvoiceUtility" to create Sales Invoice records. <br/>
+4. The custom setting "SalesOrderToInvoiceFieldMapping__c" contains the data mapping from different Source objects (e.g. Account, SalesOrder__c, Default Values) to SalesInvoice__c objects. <br/>
 <img src="supportedimages/Image5.png" />
 <img src="supportedimages/Image6.png" />
 
