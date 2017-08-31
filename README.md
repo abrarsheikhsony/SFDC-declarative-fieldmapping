@@ -11,10 +11,10 @@ What if we have this data mapping option as Declarative feature? Does it possibl
 (a) Standard Objects <br/>
 -Account <br/>
 (b) Custom Objects <br/>
-SalesOrder__c <br/>
-SalesInvoice__c <br/>
+-SalesOrder__c <br/>
+-SalesInvoice__c <br/>
 (c) Custom Setting (List Type) <br/>
-SalesOrderToInvoiceFieldMapping__c <br/>
+-SalesOrderToInvoiceFieldMapping__c <br/>
 (d) Data Model <br/>
 <img src="supportedimages/Image0.png" />
 2. An after update Apex trigger "SalesOrderTrigger" on SalesOrder__c. <br/>
