@@ -1,0 +1,9 @@
+Name,Type__c,FromObject__c,FromField__c,ToObject__c,ToField__c,DefaultToFieldValue__c
+101,SalesOrderToInvoice,SalesOrder__c,Customer__c,SalesInvoice__c,Customer__c,
+102,SalesOrderToInvoice,SalesOrder__c,SalesAmount__c,SalesInvoice__c,Amount__c,
+103,SalesOrderToInvoice,SalesOrder__c,SalesQuantity__c,SalesInvoice__c,Quantity__c,
+104,SalesOrderToInvoice,,,SalesInvoice__c,Status__c,Ready to Send
+105,SalesOrderToInvoice,Account,ShippingCountry,SalesInvoice__c,ShippingCountry__c,
+106,SalesOrderToInvoice,Account,ShippingCity,SalesInvoice__c,ShippingCity__c,
+108,SalesOrderToInvoice,Account,ShippingPostalCode,SalesInvoice__c,ShippingPostalCode__c,
+107,SalesOrderToInvoice,Account,ShippingStreet,SalesInvoice__c,ShippingStreet__c,
