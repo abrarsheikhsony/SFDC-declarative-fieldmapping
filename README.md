@@ -8,7 +8,7 @@ What if we have this data mapping option as Declarative feature? Does it possibl
 
 ### Example Considerations
 1. Here in this example we have following objects: <br/>
-(a) Standard Objects
+(a) Standard Objects <br/>
 -Account
 (b) Custom Objects
 SalesOrder__c
